@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const aiMessageController = require('../controllers/aiMessageController');
+const aiMessageController = require('../controllers/aimessageController');
 
 // Route pour créer un nouveau message
 router.post('/messages', aiMessageController.createMessage);
