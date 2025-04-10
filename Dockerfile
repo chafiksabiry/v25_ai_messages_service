@@ -15,7 +15,7 @@ COPY . .
 EXPOSE 3005
 
 ENV MONGODB_URI="mongodb://harx:gcZ62rl8hoME@185.137.122.3:27017/V25_CompanySearchWizard"
-
+ENV PORT=3005
 
 # Start the app
 CMD ["npm", "start"]
