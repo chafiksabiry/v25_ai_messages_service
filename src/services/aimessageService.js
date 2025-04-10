@@ -1,4 +1,4 @@
-const AIMessage = require('../models/aiMessage');
+const AIMessage = require('../models/aimessage');
 
 class AIMessageService {
   async createMessage(messageData) {
