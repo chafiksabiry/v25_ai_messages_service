@@ -14,7 +14,7 @@ COPY . .
 # Expose port
 EXPOSE 3005
 
-ENV MONGODB_URI="mongodb://harx:ix5S3vU6BjKn4MHp@207.180.226.2:27017/V25_HarxPreProd"
+ENV MONGODB_URI="mongodb://harx:ix5S3vU6BjKn4MHp@207.180.226.2:27017/V25_HarxProd"
 ENV PORT=3005
 
 # Start the app
